@@ -1,0 +1,29 @@
+{
+  "name": "coda-anakin",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Coda Pack for Anakin (https://anakin.io) — web scraping, AI search, and multi-stage agentic research.",
+  "main": "pack.ts",
+  "scripts": {
+    "compile": "tsc --noEmit",
+    "register": "packs register",
+    "create": "packs create pack.ts --name \"Anakin\" --description \"Web scraping, AI search, and agentic research.\"",
+    "upload": "packs upload pack.ts --notes \"Initial version.\"",
+    "execute": "packs execute pack.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anakin-Inc/coda-anakin"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "@codahq/packs-sdk": "^1.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  }
+}
