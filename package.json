@@ -20,7 +20,7 @@
     "node": ">=22.0.0"
   },
   "dependencies": {
-    "@codahq/packs-sdk": "^1.17.0"
+    "@codahq/packs-sdk": "^1.18.3"
   },
   "devDependencies": {
     "@types/node": "^22.13.4",
